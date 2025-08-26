@@ -1,0 +1,304 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="ini.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="main.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="wincur.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="XCursor.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="xz_unzip.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="bzip\blocksort.c">
+      <Filter>Vendor\BZIP</Filter>
+    </ClCompile>
+    <ClCompile Include="bzip\bzlib.c">
+      <Filter>Vendor\BZIP</Filter>
+    </ClCompile>
+    <ClCompile Include="bzip\compress.c">
+      <Filter>Vendor\BZIP</Filter>
+    </ClCompile>
+    <ClCompile Include="bzip\crctable.c">
+      <Filter>Vendor\BZIP</Filter>
+    </ClCompile>
+    <ClCompile Include="bzip\decompress.c">
+      <Filter>Vendor\BZIP</Filter>
+    </ClCompile>
+    <ClCompile Include="bzip\huffman.c">
+      <Filter>Vendor\BZIP</Filter>
+    </ClCompile>
+    <ClCompile Include="bzip\randtable.c">
+      <Filter>Vendor\BZIP</Filter>
+    </ClCompile>
+    <ClCompile Include="bzip\unzcrash.c">
+      <Filter>Vendor\BZIP</Filter>
+    </ClCompile>
+    <ClCompile Include="bzip_unzip.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib\adler32.c">
+      <Filter>Vendor\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib\zlib_compress.c">
+      <Filter>Vendor\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib\crc32.c">
+      <Filter>Vendor\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib\deflate.c">
+      <Filter>Vendor\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib\gzclose.c">
+      <Filter>Vendor\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib\gzlib.c">
+      <Filter>Vendor\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib\gzread.c">
+      <Filter>Vendor\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib\gzwrite.c">
+      <Filter>Vendor\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib\infback.c">
+      <Filter>Vendor\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib\inffast.c">
+      <Filter>Vendor\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib\inflate.c">
+      <Filter>Vendor\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib\inftrees.c">
+      <Filter>Vendor\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib\trees.c">
+      <Filter>Vendor\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib\uncompr.c">
+      <Filter>Vendor\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib\zutil.c">
+      <Filter>Vendor\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="gzip_uznip.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="miniz\miniz.c">
+      <Filter>Vendor\miniz</Filter>
+    </ClCompile>
+    <ClCompile Include="zip_unzip.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="tar_unzip.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="lzma\7zAlloc.c">
+      <Filter>Vendor\LZMA</Filter>
+    </ClCompile>
+    <ClCompile Include="lzma\7zCrc.c">
+      <Filter>Vendor\LZMA</Filter>
+    </ClCompile>
+    <ClCompile Include="lzma\Xz.c">
+      <Filter>Vendor\LZMA</Filter>
+    </ClCompile>
+    <ClCompile Include="lzma\XzCrc64.c">
+      <Filter>Vendor\LZMA</Filter>
+    </ClCompile>
+    <ClCompile Include="lzma\XzDec.c">
+      <Filter>Vendor\LZMA</Filter>
+    </ClCompile>
+    <ClCompile Include="lzma\Lzma2Dec.c">
+      <Filter>Vendor\LZMA</Filter>
+    </ClCompile>
+    <ClCompile Include="lzma\LzmaDec.c">
+      <Filter>Vendor\LZMA</Filter>
+    </ClCompile>
+    <ClCompile Include="lzma\Sha256.c">
+      <Filter>Vendor\LZMA</Filter>
+    </ClCompile>
+    <ClCompile Include="lzma\CpuArch.c">
+      <Filter>Vendor\LZMA</Filter>
+    </ClCompile>
+    <ClCompile Include="lzma\Delta.c">
+      <Filter>Vendor\LZMA</Filter>
+    </ClCompile>
+    <ClCompile Include="lzma\MtDec.c">
+      <Filter>Vendor\LZMA</Filter>
+    </ClCompile>
+    <ClCompile Include="lzma\Bra.c">
+      <Filter>Vendor\LZMA</Filter>
+    </ClCompile>
+    <ClCompile Include="lzma\Bra86.c">
+      <Filter>Vendor\LZMA</Filter>
+    </ClCompile>
+    <ClCompile Include="lzma\XzCrc64Opt.c">
+      <Filter>Vendor\LZMA</Filter>
+    </ClCompile>
+    <ClCompile Include="lzma\7zCrcOpt.c">
+      <Filter>Vendor\LZMA</Filter>
+    </ClCompile>
+    <ClCompile Include="lzma\7zStream.c">
+      <Filter>Vendor\LZMA</Filter>
+    </ClCompile>
+    <ClCompile Include="lzma\Threads.c">
+      <Filter>Vendor\LZMA</Filter>
+    </ClCompile>
+    <ClCompile Include="lzma\Sha256Opt.c">
+      <Filter>Vendor\LZMA</Filter>
+    </ClCompile>
+    <ClCompile Include="lzma\Alloc.c">
+      <Filter>Vendor\LZMA</Filter>
+    </ClCompile>
+    <ClCompile Include="theme_manager.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ini.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="wincur.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="XCursor.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="da.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="xz_unzip.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="bzip_unzip.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="bzip\bzlib.h">
+      <Filter>Vendor\BZIP</Filter>
+    </ClInclude>
+    <ClInclude Include="bzip\bzlib_private.h">
+      <Filter>Vendor\BZIP</Filter>
+    </ClInclude>
+    <ClInclude Include="zlib\crc32.h">
+      <Filter>Vendor\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="zlib\deflate.h">
+      <Filter>Vendor\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="zlib\gzguts.h">
+      <Filter>Vendor\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="zlib\inffast.h">
+      <Filter>Vendor\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="zlib\inffixed.h">
+      <Filter>Vendor\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="zlib\inflate.h">
+      <Filter>Vendor\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="zlib\inftrees.h">
+      <Filter>Vendor\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="zlib\trees.h">
+      <Filter>Vendor\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="zlib\zconf.h">
+      <Filter>Vendor\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="zlib\zlib.h">
+      <Filter>Vendor\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="zlib\zutil.h">
+      <Filter>Vendor\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="gzip_unzip.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="miniz\miniz.h">
+      <Filter>Vendor\miniz</Filter>
+    </ClInclude>
+    <ClInclude Include="zip_unzip.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="tar_unzip.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="lzma\7z.h">
+      <Filter>Vendor\LZMA</Filter>
+    </ClInclude>
+    <ClInclude Include="lzma\7zAlloc.h">
+      <Filter>Vendor\LZMA</Filter>
+    </ClInclude>
+    <ClInclude Include="lzma\7zCrc.h">
+      <Filter>Vendor\LZMA</Filter>
+    </ClInclude>
+    <ClInclude Include="lzma\Xz.h">
+      <Filter>Vendor\LZMA</Filter>
+    </ClInclude>
+    <ClInclude Include="lzma\XzCrc64.h">
+      <Filter>Vendor\LZMA</Filter>
+    </ClInclude>
+    <ClInclude Include="lzma\Lzma2Dec.h">
+      <Filter>Vendor\LZMA</Filter>
+    </ClInclude>
+    <ClInclude Include="lzma\LzmaDec.h">
+      <Filter>Vendor\LZMA</Filter>
+    </ClInclude>
+    <ClInclude Include="lzma\Sha256.h">
+      <Filter>Vendor\LZMA</Filter>
+    </ClInclude>
+    <ClInclude Include="lzma\CpuArch.h">
+      <Filter>Vendor\LZMA</Filter>
+    </ClInclude>
+    <ClInclude Include="lzma\Delta.h">
+      <Filter>Vendor\LZMA</Filter>
+    </ClInclude>
+    <ClInclude Include="lzma\MtDec.h">
+      <Filter>Vendor\LZMA</Filter>
+    </ClInclude>
+    <ClInclude Include="lzma\Bra.h">
+      <Filter>Vendor\LZMA</Filter>
+    </ClInclude>
+    <ClInclude Include="lzma\Threads.h">
+      <Filter>Vendor\LZMA</Filter>
+    </ClInclude>
+    <ClInclude Include="theme_manager.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Headers">
+      <UniqueIdentifier>{03cd8221-b413-49ce-938b-81e57e7b9c06}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source">
+      <UniqueIdentifier>{35ac4518-d26b-461f-950e-03101b5751ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Vendor">
+      <UniqueIdentifier>{26648059-bea7-4e5d-b5b3-09dc2381fc76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Vendor\miniz">
+      <UniqueIdentifier>{04155320-4332-4475-b8b3-94b1a99865a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Vendor\LZMA">
+      <UniqueIdentifier>{68c8f5cc-1e53-4b3d-8c4e-e8c62dfa5d48}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Vendor\BZIP">
+      <UniqueIdentifier>{337ddc6d-7a4d-41a3-a261-50d55f60fb86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Vendor\zlib">
+      <UniqueIdentifier>{5481bf5a-d7d2-4e7f-9e6d-a2f020f6b0d1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Cursory.rc" />
+  </ItemGroup>
+</Project>
